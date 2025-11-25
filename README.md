@@ -10,3 +10,13 @@
 The goal of `test_class_project` is to analyze a dataset about sleep.
 
 change
+
+``` r
+if (!require("praise", character.only = TRUE)) {
+  install.packages("praise")
+  library("praise", character.only = TRUE)
+}
+#> Loading required package: praise
+praise()
+#> [1] "You are epic!"
+```
