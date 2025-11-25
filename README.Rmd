@@ -20,4 +20,12 @@ The goal of `test_class_project` is to analyze a dataset about sleep.
 
 **Note**: This is a test project for class purposes.
 
+```{r}
+if (!require("praise", character.only = TRUE)) {
+  install.packages("praise")
+  library("praise", character.only = TRUE)
+}
+praise()
+```
+
 
